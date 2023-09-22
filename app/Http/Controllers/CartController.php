@@ -8,6 +8,11 @@ use App\Models\ProductVariation;
 class CartController extends Controller
 {
 
+    public static function clearCart()
+    {
+        session()->forget('cart');
+        session()->put('cart_total_price', 0);
+    }
 
     public function index() 
     {

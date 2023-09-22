@@ -46,10 +46,9 @@
     <!-- Continue Shopping Button -->
     <a href="{{ route('products.index') }}" class="btn btn-light">Continue Shopping</a>
     
-    <!-- Proceed to Checkout Button 
+    <!-- Proceed to Checkout Button -->
     <a href="{{ route('checkout.index') }}" disabled="disabled" class="btn btn-primary">Checkout </a>
-    -->
-    <a href="#" disabled="disabled" class="btn btn-primary">Checkout </a>
+    
 </div>
 
 @else
